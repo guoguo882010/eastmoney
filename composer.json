@@ -1,0 +1,22 @@
+{
+  "name": "guoguo882010/eastmoney",
+  "description": "抓取东方财富数据",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "47088845",
+      "email": "47088845@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "GUOGUO882010\\EastMoney\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "ext-json": "*",
+    "ext-curl": "*"
+  }
+}
